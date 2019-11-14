@@ -9,3 +9,7 @@ lista uri - graus de dificuldade
 1065 - 2 ok
 1066 - 2 ok
 1049 - 3 ok
+1172 - 2
+1180 - 2
+1174 - 3
+
