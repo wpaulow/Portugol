@@ -3,12 +3,13 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro x, area, l, b, h, bMenor, bMaior, diag1, diag2, vol, larg, prof
+		inteiro x, area, l, b, h, bMenor, bMaior, diag1, diag2, larg, prof
+		real raio, diam, pi = 3.14, vol
 		
-		escreva("Digite 1 para calcular a área de um quadrado \n, digite 2 para calcular a área de um retângulo\n")
-		escreva("3 para calcular a área de um triângulo \n, 4 para calcular a área de um losango\n")
-		escreva("5 para calcular a área de um trapézio \n, 6 para calcular o volume de um paralelepípedo\n")
-		escreva("7 para calcular o volume de um cubo \n, 8 para calcular o volume de um cilindro:\n")
+		escreva("Digite 1 para calcular a área de um quadrado, \n2 para calcular a área de um retângulo,\n")
+		escreva("3 para calcular a área de um triângulo, \n4 para calcular a área de um losango,\n")
+		escreva("5 para calcular a área de um trapézio, \n6 para calcular o volume de um paralelepípedo,\n")
+		escreva("7 para calcular o volume de um cubo, \n8 para calcular o volume de um cilindro:\n")
 
 		leia(x)
 		
@@ -52,13 +53,26 @@ programa
 				escreva("A área é: ", area = (bMenor + bMaior) * h / 2)
 				pare
 			caso 6:
-				escreva("EletroEletrônicos")
+				escreva("Informe a altura do paralelepípedo: ")
+				leia(h)
+				escreva("Informe a largura do paralelepípedo: ")
+				leia(larg)
+				escreva("Informe a profundidade do paralelepípedo: ")
+				leia(prof)
+				escreva("O volume é: ", vol = h * larg * prof)
 				pare
 			caso 7:
-				escreva("Pets")
+				escreva("Informe o lado do cubo: ")
+				leia(l)
+				escreva("O volume é: ", vol = l * l * l)
 				pare
 			caso 8:
-				escreva("Higiene e Limpeza")
+				escreva("Informe o diâmetro do cilindro: ")
+				leia(diam)
+				raio = diam / 2
+				escreva("Informe a altura do cilindro: ")
+				leia(h)
+				escreva("O volume é: ", vol = pi * raio * raio * h)
 				pare
 			caso contrario:
 				escreva("Opção Inválida. Por favor, digite um número de um a 8:")
@@ -72,7 +86,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1502; 
+ * @POSICAO-CURSOR = 2231; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
