@@ -3,7 +3,8 @@ programa
 	
 	funcao inicio()
 	{	
-		real nJog, i = 1, S, B, A, S1, B1, A1, sTot = 0, bTot = 0, aTot = 0, s1Tot = 0, b1Tot = 0, a1Tot = 0
+		real S, B, A, S1, B1, A1, sTot = 0, bTot = 0, aTot = 0, s1Tot = 0, b1Tot = 0, a1Tot = 0
+		inteiro nJog, i = 1
 		cadeia nome
 		escreva("Informe o número de jogadores: ")
 		leia(nJog)
@@ -36,7 +37,9 @@ programa
 			i++
 		}
 
-		escreva("Pontos de Saque: " , (s1Tot/sTot)*100 , "% \n")
+		
+		
+		escreva("\n\nPontos de Saque: " , (s1Tot/sTot)*100 , "% \n")
 		escreva("Pontos de Bloqueios: " , (b1Tot/bTot)*100 , "% \n")
 		escreva("Pontos de Saque: " , (a1Tot/aTot)*100 , "% \n")
 	}
@@ -46,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1016; 
+ * @POSICAO-CURSOR = 145; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

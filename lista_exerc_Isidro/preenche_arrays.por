@@ -28,6 +28,15 @@ programa
 		}
 
 		//1 2 3 4 5 10 20 30 40 50
+		escreva("\n\n")
+		
+		para(i = 0; i < 10; i++) {
+			
+		}
+
+		para(i = 0; i < 10; i++) {
+			escreva(c[i], "\n")
+		}
 
 		//3 4 7 12 19 28 39 52 67 84
 
@@ -54,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 536; 
+ * @POSICAO-CURSOR = 541; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
