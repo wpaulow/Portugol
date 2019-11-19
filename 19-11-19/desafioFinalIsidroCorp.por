@@ -6,28 +6,28 @@ programa
 	{
 		inteiro i, pico = 0
 		
-		real vet[10]
+		real temp[10]
 
-		escreva("Informe um valor:")
-		leia(vet[0])
+		escreva("Informe um valor: ")
+		leia(temp[0])
 		
 		para(i = 1; i < 10; i++) {
-			escreva("Informe um valor:")
-			leia(vet[i])
+			escreva("Informe um valor: ")
+			leia(temp[i])
 		}
 
 		para(i = 1; i < 9; i++) {
  
-			se (vet[i] > vet[i-1] e vet[i] > vet[i+1]) {
+			se (temp[i] > temp[i-1] e temp[i] > temp[i+1]) {
 				pico++
 			}
 		}
 
-		se (vet[0] > [vet[1]) {
+		se (temp[0] > [temp[1]) {
 				pico++
 		}
 
-		se (vet[9] > vet[8]) {
+		se (temp[9] > temp[8]) {
 				pico++	
 		}
 
@@ -39,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 424; 
+ * @POSICAO-CURSOR = 142; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
