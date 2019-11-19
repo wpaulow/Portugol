@@ -25,8 +25,8 @@ programa
 				se (x % 2 == 0) {
 					par++
 				} senao {
-					imp++}
-				
+					imp++
+				}
 			}
 		}
 		escreva(par, " valor(es) par(es)\n")
@@ -40,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 258; 
+ * @POSICAO-CURSOR = 397; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
